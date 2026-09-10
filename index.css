@@ -583,7 +583,54 @@ h1 {
 }
 
 /* Responsive section  */
-@media screen and (min-width:1024px) {
+@media screen and (min-width:320px) and (max-width:600px){
+ .skills {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-bottom: 50px;
+    font-size:11px;
+  }
+  .subdiv {
+  padding: 11px;
+  height:140px;
+}
+.subskill{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.span-1 {
+  gap: 3px;
+  margin: 0px 20px;
+}
+.serve {
+  font-size: small;
+ gap: 4px;
+ margin-top: 30px;
+ margin-bottom: 5px;}
+
+ .services aside{
+  font-size: 13px;
+ }
+ .small {
+  font-size:15px;
+  margin-top: 20%;
+}
+.icon{
+  font-size: 28px;
+}
+.lastnav{
+  width: 85%;
+}
+
+
+}
+
+
+
+@media screen and (min-width:1020px) {
   .nav {
     width: 90%;
     justify-self: center;
